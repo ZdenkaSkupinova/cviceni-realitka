@@ -3,7 +3,7 @@ export const Header = (props) => {
     return (
         <header>
             <h1 className ="add-title">{props.addTitle}</h1>
-                <nav id="nav">
+                <nav id="nav" className="dum">
                     <a href="/dum01">dům 1</a>
                     <a href="/dum02">dům 2</a>
                     <a href="/dum03">dům 3</a>
