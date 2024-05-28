@@ -37,12 +37,12 @@ const phone = (data.contact.phone)
 
 const {title, text, city, contact, photo} = data
 
-
+const addTitle='Inzeráty'
 
 document.querySelector('#root').innerHTML = render(
   <div id="app" className="app container">
       <>
-        <Header addTitle='Inzeráty'/>
+        <Header addTitle={addTitle}/>
 
         <Estate title = {title}
               text = {text}city = {city}
