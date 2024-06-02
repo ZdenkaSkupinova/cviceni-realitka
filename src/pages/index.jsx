@@ -14,7 +14,7 @@ import { Estate } from '../estate/estate';
 //   https://apps.kodim.cz/daweb/trening-api/apis/realitka/dum04
 
 const link = 'https://apps.kodim.cz/daweb/trening-api/apis/realitka/'
-let current_path = location.pathname.split('/')[1]
+let current_path = location.pathname.split('/')[1].split(".")[0]
 console.log(current_path)
 // asi podminka ???  if (current_path === "dum01")
 
